@@ -12,7 +12,6 @@ public class Cell
         
     /**
      * Initializes the cell object with position and default off state.
-     * 
      * @param row the row position of the cell.
      * @param col the column position of the cell.
      * @param state the initial state of the cell.
