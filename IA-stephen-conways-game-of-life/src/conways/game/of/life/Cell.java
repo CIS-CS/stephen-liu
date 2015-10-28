@@ -80,6 +80,7 @@ public class Cell
     /**
      * Sets the state of the cell.
      * @param state the new state of the cell.
+     * @throws Exception: if the value given is not 0 or 1.
      */
     public void setState(int state) throws Exception
     {
