@@ -81,7 +81,13 @@ public class World
             
             positions = positions + pos;
             
-            grid[row][col].setState(1);
+            try
+            {
+                grid[row][col].setState(1);
+            }
+            catch (Exception e)
+            {
+            }
         }
     }
     

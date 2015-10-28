@@ -214,6 +214,9 @@ public class Surface extends JPanel implements ActionListener
             catch (ArrayIndexOutOfBoundsException e)
             {
             }
+            catch (Exception e)
+            {
+            }
         }
         else if (addCell == false)
         {
@@ -222,6 +225,9 @@ public class Surface extends JPanel implements ActionListener
                 world.getState()[row][col].setState(0);
             }
             catch (ArrayIndexOutOfBoundsException e)
+            {
+            }
+            catch (Exception e)
             {
             }
         }
