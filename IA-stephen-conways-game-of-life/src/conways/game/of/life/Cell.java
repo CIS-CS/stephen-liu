@@ -59,7 +59,13 @@ public class Cell
         }
 
         // write to the write grid.
-        writeToGrid[row][col].setState(nextState);
+        try
+        {
+            writeToGrid[row][col].setState(nextState);
+        }
+        catch (Exception e)
+        {
+        }
     }
     
     /**
@@ -75,11 +81,11 @@ public class Cell
      * Sets the state of the cell.
      * @param state the new state of the cell.
      */
-    public void setState(int state)
+    public void setState(int state) throws Exception
     {
         if ((state < 0) || (state > 1))
         {
-            System.out.println("State must be either 0 (off) or 1 (on)");
+            throw new Exception("State must be either 0 (off) or 1 (on)");
         }
         else
         {
