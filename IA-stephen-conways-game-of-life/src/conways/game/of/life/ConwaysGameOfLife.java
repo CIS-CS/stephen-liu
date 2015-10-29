@@ -64,6 +64,8 @@ public class ConwaysGameOfLife extends javax.swing.JFrame
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Conway's Game of Life");
+        setPreferredSize(new java.awt.Dimension(960, 720));
+        setResizable(false);
         setSize(new java.awt.Dimension(960, 720));
 
         rootPanel.setToolTipText("");
