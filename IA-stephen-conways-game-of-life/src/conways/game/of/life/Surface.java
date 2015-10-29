@@ -322,6 +322,7 @@ public class Surface extends JPanel implements ActionListener
     
     /**
      * Sets the speed at which the simulation runs.
+     * @param speedup
      */
     public void setSimSpeed(double speedup)
     {
