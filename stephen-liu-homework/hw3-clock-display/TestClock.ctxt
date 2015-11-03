@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TestClock()
+comment1.params=tickLimit
+comment1.target=void\ testTimeTick(int)
+numComments=2

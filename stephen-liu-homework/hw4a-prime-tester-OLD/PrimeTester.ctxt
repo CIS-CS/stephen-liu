@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=number
+comment0.target=boolean\ isPrime(int)
+comment0.text=\n\ Tests\ whether\ a\ given\ number\ is\ prime.\n\ \n\ @param\ number\ the\ number\ that\ is\ being\ tested.\n\ \n\ @return\ whether\ the\ number\ is\ prime.\n
+comment1.params=lastNumber
+comment1.target=void\ printPrimes(int)
+comment1.text=\n\ Prints\ the\ prime\ numbers\ up\ to\ a\ given\ number.\n\ \n\ @param\ lastNumber\ the\ number\ of\ primes\ to\ print.\n
+numComments=2

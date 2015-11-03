@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ The\ main\ method\ of\ the\ test\ class.\ Creates\ a\ new\ music\ organizer\ to\ test.\n\ Runs\ all\ the\ tests.\n\ \n\ @param\ args\ any\ commandline\ arguments.\n
+comment1.params=numberOfItems
+comment1.target=void\ populateMO(int)
+comment1.text=\n\ Populates\ the\ music\ organizer\ with\ a\ given\ number\ of\ tracks.\n\ \n\ @param\ numberOfItems\ the\ number\ of\ music\ tracks\ to\ fill\ the\ music\ organizer\ with.\n
+comment2.params=
+comment2.target=void\ displaySongsReverse()
+comment2.text=\n\ Display\ all\ the\ songs\ in\ the\ music\ organizer\ in\ reverse.\n
+numComments=3

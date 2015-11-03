@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=xRes\ yRes
+comment0.target=Screen(int,\ int)
+comment0.text=\n\ Constructor\ for\ the\ screen\ object.\ Sets\ the\ screen\ resolution\ with\n\ values\ passed\ into\ the\ constructor.\n\ \n\ @param\ xRes\ the\ x\ resolution\ of\ the\ screen.\n\ @param\ yRes\ the\ y\ resolution\ of\ the\ screen.\n
+comment1.params=
+comment1.target=int\ getPixelCount()
+comment1.text=\n\ Returns\ the\ number\ of\ pixels\ on\ the\ screen.\n\ \n\ @return\ x\ resolution\ of\ the\ screen\ *\ y\ resolution\ of\ the\ screen.\n
+comment2.params=
+comment2.target=void\ clearScreen()
+comment2.text=\n\ Clears\ the\ screen.\ At\ this\ point\ it\ only\ prints\ out\ a\ string\n\ indicating\ the\ screen\ was\ cleared.\n
+numComments=3
