@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.params=n
-comment0.target=int\ recursiveFibonacci(int)
-comment1.params=n
-comment1.target=int\ iterativeFibonacci(int)
-numComments=2

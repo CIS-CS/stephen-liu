@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=xRes\ yRes
-comment0.target=ScreenManager(int,\ int)
-comment0.text=\n\ Constructor\ for\ the\ ScreenManager\ class.\ It\ creates\ a\ new\ screen\ with\n\ the\ resolution\ that\ the\ user\ passes\ in.\n\ \n\ @param\ xRes\ the\ horizontal\ resolution\ of\ the\ screen.\n\ @param\ yRes\ the\ vertical\ resolution\ of\ the\ screen.\n
-comment1.params=
-comment1.target=void\ clearScreen()
-comment1.text=\n\ Clears\ the\ screen\ if\ the\ number\ of\ pixels\ on\ the\ screen\ is\ greater\n\ than\ 2\ million.\ Otherwise,\ print\ out\ an\ error\ message.\n
-numComments=2
