@@ -9,7 +9,6 @@ public class Cell
     private int row;
     private int col;
     private int state;
-    private int test;
     
     /**
      * Initializes the cell object with position and default off state.
