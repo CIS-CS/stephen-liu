@@ -4,6 +4,7 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JPanel;
 import java.awt.Color;
+import java.awt.Point;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -177,34 +178,12 @@ public class Surface extends JPanel implements ActionListener
      */
     public void toggleCell(double x, double y)
     { 
-        int size = world.getWidth();
-        double xmod = 0;
-        double ymod = 0;
-        
-        // determine offsets for calibration.
-        switch (size)
-        {
-            case 40:
-                xmod = 14.5;
-                ymod = 5.0;
-                break;
-            case 50:
-                xmod = 18.2;
-                ymod = 5.5;
-                break;
-            case 100:
-                xmod = 40.0;
-                ymod = 12.5;
-                break;
-            case 200:
-                xmod = 80;
-                ymod = 25;
-                break;
-        }
-        
-        int col = (int) Math.floor((x - (xmod * unit)) / unit);
-        int row = (int) Math.floor((y - (ymod * unit)) / unit);
-        
+        Point p = this.getLocationOnScreen();
+        double relX = x - p.getX();
+        double relY = y - p.getY();
+        int col = (int) Math.floor(relX / unit);
+        int row = (int) Math.floor(relY / unit);
+
         if (addCell == true)
         {
             try
