@@ -67,7 +67,7 @@ public class Surface extends JPanel implements ActionListener
      * Initializes the surface object by setting the properties of the 
      * object and starting the timer for animation.
      */
-    public void initSurface()
+    private void initSurface()
     {
         setFocusable(true);
         setBackground(Color.WHITE);

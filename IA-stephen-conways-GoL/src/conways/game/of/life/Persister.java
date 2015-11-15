@@ -67,7 +67,6 @@ public class Persister
         }
         catch (IOException ioe)
         {
-            die();
         }
         
         return world;
@@ -104,15 +103,6 @@ public class Persister
         }
         catch (IOException ioe)
         {
-            die();
         }
-    }
-    
-    /**
-     * Handles exceptions.
-     */
-    private void die()
-    {
-        System.out.println("Agh, I die!");
     }
 }

@@ -123,7 +123,7 @@ public class InfoPanel extends JPanel implements ActionListener
      * Custom drawing.
      * @param g the graphics object with which to do drawing.
      */
-    public void draw(Graphics g)
+    private void draw(Graphics g)
     {
         Graphics2D g2 = (Graphics2D) g;
         Toolkit.getDefaultToolkit().sync();

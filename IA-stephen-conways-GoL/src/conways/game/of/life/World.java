@@ -187,21 +187,4 @@ public class World
     {
         return grid;
     }
-    
-    /**
-     * Drawing code to stdout in place now before drawing to the GUI is implemented.
-     * For testing purposes.
-     * @param dGrid the grid to draw to stdout.
-     */
-    public void draw(Cell[][] dGrid)
-    {
-        for (int row = 0; row < height; row++)
-        {
-            for (int col = 0; col < width; col++)
-            {
-                System.out.print(dGrid[row][col].getState());
-            }
-            System.out.println();
-        }
-    }
 }
