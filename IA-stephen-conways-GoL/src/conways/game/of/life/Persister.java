@@ -68,6 +68,12 @@ public class Persister
         catch (IOException ioe)
         {
         }
+        catch (StringIndexOutOfBoundsException sie)
+        {
+        }
+        catch (NullPointerException npe)
+        {
+        }
         
         return world;
     }
@@ -102,6 +108,12 @@ public class Persister
             pwriter.close();
         }
         catch (IOException ioe)
+        {
+        }
+        catch (StringIndexOutOfBoundsException sie)
+        {
+        }
+        catch (NullPointerException npe)
         {
         }
     }
