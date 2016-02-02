@@ -366,6 +366,10 @@ public class ConwaysGameOfLife extends javax.swing.JFrame
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     * Save the world to a file.
+     * @param evt 
+     */
     private void saveMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveMenuItemActionPerformed
         int returnVal = fileChooser.showSaveDialog(this);
         
